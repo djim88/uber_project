@@ -1,0 +1,276 @@
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'), local('Roboto-Regular'),
+        url('Roboto-Regular.woff2') format('woff2'),
+        url('Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Black'), local('Roboto-Black'),
+        url('Roboto-Black.woff2') format('woff2'),
+        url('Roboto-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Thin'), local('Roboto-Thin'),
+        url('Roboto-Thin.woff2') format('woff2'),
+        url('Roboto-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Light'), local('Roboto-Light'),
+        url('Roboto-Light.woff2') format('woff2'),
+        url('Roboto-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Bold'), local('Roboto-Bold'),
+        url('Roboto-Bold.woff2') format('woff2'),
+        url('Roboto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    position: relative;
+}
+nav {
+    height: 67px;
+    background-color: #212121;
+     
+}
+header nav {
+    padding: 13px 70px;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    position: fixed;
+}
+.menu__link {
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+    text-decoration: none;
+}
+.menu__item {
+    border-right: 2px dotted #000;
+    padding-right: 35px;
+}
+.menu__item:last-child {
+    border-right: none;
+}
+.subheader {
+    min-height: 84px;
+    background-color: rgba(0, 0, 0, .6);
+    position: absolute;
+    width: 100%;
+    
+}
+.subheader__text {
+    font-size: 13px;
+    font-weight: 100;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 6px;
+}
+
+.subheader .subheader__link {
+    display: block;
+    max-width: 100%;
+    margin-top: 16px;
+}
+.subheader__call {
+    font-size: 12px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #fff;
+    margin-top: 19px;
+    
+}
+.subheader__phone {
+    display: block;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #fff;
+    margin-top: 8px;
+    text-decoration: none;
+    line-height: 12px;
+}
+.subheader__btn {
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0px -3px 0 0 rgba(0, 0, 0, 0.12);
+    background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+.promo {
+    min-height: 800px;
+    background: url('../img/uber_head_bg.png') center center/cover no-repeat;
+    padding: 150px 0 135px 0;
+}
+.promo__title {
+    font-size: 60px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+}
+.promo__subtitle {
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    margin-top: 22px;
+}
+.promo__text {
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    margin-top: 23px;
+  
+}
+.promo__btn {
+    display: block;
+    margin: 118px auto 0 auto;
+    width: 259px;
+    height: 63px;
+    box-shadow: inset 0px -4px 0 0 rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+  }
+
+.reasons {
+      min-height: 900px;
+  }
+.communis__btn {
+    display: block;
+    margin:71px auto 0 auto;
+    width: 112px;
+    height: 24px;
+    background-color: #000;
+    font-size: 11px;
+    font-weight: 100;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 2px;
+}
+.communis__title {
+    font-size: 38px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.26;
+    letter-spacing: normal;
+    text-align: center;
+    color:#000;
+    margin-top: 38px;
+    text-transform: uppercase;
+    
+}
+.reasons__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.reasons__round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 113px;
+    height: 113px;
+    margin-right: 26px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+    }
+.reasons__text {
+    max-width: 341px;
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #202020;
+}
+.reasons__title {
+    font-size: 17px;
+    font-weight: normal;
+    color: #1eacc7;
+    max-width: 341px;
+  }
+  
+
+
